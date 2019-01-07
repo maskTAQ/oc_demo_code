@@ -8,11 +8,13 @@
 
 #import <Foundation/Foundation.h>
 #import "ArrayExample.h"
+#import "String.h"
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
         NSLog(@"我的oc学习笔记");
-        [ArrayExample run];
+        //[ArrayExample run];
+        [String run];
 }
     return 10;
 }
